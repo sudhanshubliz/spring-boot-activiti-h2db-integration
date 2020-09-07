@@ -68,11 +68,11 @@ The code for this example can be [found in my Github repository](https://github.
 As said in the introduction, all shapes here have a very specific interpretation thanks to the BPMN 2.0 standard. But even without knowledge of BPMN, the process is pretty easy to understand:
 
 * When the process starts, the resume of the job applicant is stored in an external system.
-* The process then waits until a telephone interview has been conducted. This is done by a user (see the little icon of a person in the corner).
-* If the telephone interview wasn�t all that, a polite rejection email is sent. Otherwise, both a tech interview and financial negotiation should happen.
-* Note that at any point, the applicant can cancel. That�s shown in the diagram as the event on the boundary of the big rectangle. When the event happens, everything inside will be killed and the process halts.
-* If all goes well, a welcome email is sent.
+* The process then waits until a Supplier data approval has been conducted. This is done by a user (see the little icon of a person in the corner).
+* If the approval for supplier is approved , Then sent for the Active state for processing Service Task. 
+* Note that at active state, the approver can rejected the request as Temprorary or Permanent. 
+* If permanent rejection goes, a notificatio email is sent.
 
-This is the [BPMN for this process](https://github.com/jbarrez/spring-boot-with-activiti-example/blob/master/src/main/resources/processes/Developer_Hiring.bpmn20.xml)
+This is the [BPMN for this process]
 (https://github.com/sudhanshubliz/spring-boot-activiti-h2db-integration/blob/master/src/main/resources/processes/Listing_State_WorkFlow.bpmn20.xml)
  
