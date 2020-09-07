@@ -49,7 +49,7 @@ password:- test
 
 
 ```
-Download the [Activiti] 
+Download the [Activiti]
 (https://github.com/Activiti/Activiti/releases/download/activiti-6.0.0/activiti-6.0.0.zip)
 ![Activiti logo](doc/images/supplier-workflow.JPG)
 
@@ -63,11 +63,7 @@ Put in Tomcat folder apache-tomcat-8.5.57-windows-x64\apache-tomcat-8.5.57\webap
 and Run the application apache-tomcat-8.5.57\bin\startup.bat or for linux env startup.sh
  
 
-The code for this example can be [found in my Github repository](https://github.com/sudhanshubliz/spring-boot-activiti-h2db-integration).
-
-The process well implement here is a hiring process for a developer. Its simplified of course (as it needs to fit on this web page), but you should get the core concepts. Heres the diagram:
-
-![Image of the hire process using BPMN2 symbolism](doc/images/hire-process.png)
+The code for this example can be [found in my Github repository](https://github.com/sudhanshubliz/spring-boot-activiti-h2db-integration). 
 
 As said in the introduction, all shapes here have a very specific interpretation thanks to the BPMN 2.0 standard. But even without knowledge of BPMN, the process is pretty easy to understand:
 
